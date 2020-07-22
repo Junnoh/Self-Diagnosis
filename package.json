@@ -1,0 +1,31 @@
+{
+  "name": "self-diagnosis",
+  "version": "1.0.0",
+  "description": "Corona Student Self-Diagnosis",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohurjon/Self-Diagnosis.git"
+  },
+  "keywords": [
+    "Self-Diagnosis",
+    "Corona",
+    "Student",
+    "Auto"
+  ],
+  "author": "ohurjon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohurjon/Self-Diagnosis/issues"
+  },
+  "homepage": "https://github.com/ohurjon/Self-Diagnosis#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "got": "^11.5.0",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {}
+}
