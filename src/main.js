@@ -16,7 +16,7 @@ async function Self_Diagnosis(Site,Token){
 }
 job = new CronJob(`00 30 7 * * 1-5`,() => { 
         school_data.forEach(data => {
-            Self_Diagnosis(data.Site,data.token);
+            Self_Diagnosis(data.site,data.token);
         })
     });
 job.start();
